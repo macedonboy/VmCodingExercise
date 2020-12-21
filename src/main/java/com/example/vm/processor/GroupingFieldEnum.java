@@ -10,7 +10,7 @@ import java.util.function.Function;
  */
 public enum GroupingFieldEnum {
 
-    CATEGORY("category", t -> StringUtils.isEmpty(t.getCategory()) ? "" : t.getCategory());
+    CATEGORY("category", t -> StringUtils.isBlank(t.getCategory()) ? "" : t.getCategory());
 
     private String fieldName;
     private Function<Transaction, String> extractor;
