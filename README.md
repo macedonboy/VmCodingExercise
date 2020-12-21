@@ -1,6 +1,7 @@
 # VmCodingExercise
 
 BasicProcessor does the computations
+
 BasicProcessorTest tests the scenarios from CodingExercise.docx
 
 I've assumed:
